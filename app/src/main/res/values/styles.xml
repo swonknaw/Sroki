@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ShapeAppearanceOverlay.MyApp.Button.Circle" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="recycler">
+        <item name="backgroundColor">@color/white</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+    <style name="alertRecycler">
+        <item name="backgroundColor">#F4E9E0</item>
+        <item name="cornerRadius">20dp</item>
+    </style>
+    <style name="MyDatePickerDialogTheme" parent="android:Theme.Material.Light.Dialog">
+        <item name="android:datePickerStyle">@style/MyDatePickerStyle</item>
+        <item name="android:colorAccent">@color/ruined</item>
+    </style>
+    <style name="MyDatePickerStyle" parent="@android:style/Widget.Material.Light.DatePicker">
+        <item name="android:headerBackground">@color/ruined</item>
+        <item name="android:datePickerMode">calendar</item>
+    </style>
+</resources>
